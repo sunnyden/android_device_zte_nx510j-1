@@ -16,12 +16,12 @@
 $(call inherit-product, device/zte/nx510j/nx510j.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+#$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+#$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_nx510j
+PRODUCT_NAME := aosp_nx510j
 PRODUCT_DEVICE := nx510j
 PRODUCT_MANUFACTURER := nubia
 PRODUCT_MODEL := NX510J
