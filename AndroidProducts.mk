@@ -15,4 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
+	$(LOCAL_DIR)/aosp_nx510j.mk\
 	$(LOCAL_DIR)/nx510j.mk
